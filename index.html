@@ -1,73 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <!----- <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"-->
-    <title>Resume 2021</title>
-</head>
-<body>
-    <h4>Sheri Surratt</h4>
-    <h4>Shelby North Carolina</h4>
-    <h4>Email:sherisurratt@gmail.com</h4>
-    
-    <h3><b>Career Summary</b></h3>
-    <div>
-    <p><span>Forward thinking I.T professional, highly intersted in joining a team enviornment 
-        to assist in project building and problem solving.</span> 
-    </p>
-    <h3>Key Skills</h3>
-    <ul>
-        <li>Problem-solving</li>
-        <li>Active Listening</li>
-        <li>Computer Skills</li>
-        <li>Customer service</li>   
-        <li>Active listening</li>
-        <li>Time management</li>       
-    </ul>
-    </div>
-    <h3>Technology Summary</h3>
-    <ul>
-        <li>GitHub</li>
-        <li>Visual Code Studio</li>
-        <li>Trello</li>
-        <li>Windows 10 & Mac OS</li>
-    </ul>
-    <h3>Experience</h3>
-    <h4>June 2019-Present| My Little Cakery- Cake Designer</h4>
-    <h5>My role as the owner involved overseeing the daily operations and creative design for each individual cake order </h5>
-        <ul>
-        <li>Customer service and client interaction with data intake</li>
-        <li>Advertise and Marketing through social media</li>
-        <li>Product production and presentation</li>
+  <head>
+    <title>My Personal Website</title>
+    <!--bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <!---Navbar Beginnig-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Navbar</a>
 
-    <h4>June 2019-Oct 2019| Cleveland Department of Human Services- Income Maintenance Technican</h4>
-    <h5>My role involved providing assistance to the community in need of economic assistence</h5>
-    <ul>
-        <li>Application intake</li>
-        <li>Data Entry</li>
-        <li>Case management operations</li>
-   </ul>
-   <div>
-   <h4>June 2010-June 2020| Allen Tate Company- NC Real Estate Broker</h4>
-   <h5>My role involved brokering the sale of real property on brehalf of buyers and sellers looking
-       to purchase real estate.</h5>
-    <ul>
-        <li>Advertisment and marketing</li>
-        <li>Caravaning and presenting the sale of homes for sale.</li>
-        <li>Coordinating the legal documentation for the closing of the sale</li>
-    </ul>
-    <h3>Education</h3>
-    <h4>Software Engineering Immersive (Student) 2020-2021</h4>
-    <ul>
-        <li>Developed 5 web applications and built two user-friendly websites using full-stack Java and several other programming languages,
-            libraries, and frameworks.
-        </li>
-        <li>Created an interactive To-Do List app that helps users sort tasks into catergories and then prioritize them into day, week,
-            and month schedules; used HTML, CSS, and JS React</li>
-        <li>Second Amazing Project to come!!</li>
-        <li>Third Amazing Project to come!!</li>
-    </ul>
-</div>
-</body>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </nav>
+    <!--Navbar End-->
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">
+        This is a simple hero unit, a simple jumbotron-style component for
+        calling extra attention to featured content or information.
+      </p>
+      <hr class="my-4" />
+      <p>
+        It uses utility classes for typography and spacing to space content out
+        within the larger container.
+      </p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+    <figure class="figure">
+      <img
+        src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.6435-9/81742805_161147391963906_5957178575093235712_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=e3f864&_nc_ohc=EvqU4KLd72oAX8sM1Lr&_nc_ht=scontent-atl3-1.xx&oh=f66cba5df1e2ede47f3cb29ebfdeb660&oe=609FFAB2"
+        class="figure-img img-fluid rounded"
+        alt="logo"
+      />
+      <figcaption class="figure-caption">
+        A caption for the above image.
+      </figcaption>
+    </figure>
+
+    <!--Row Columns-->
+    <div class="container">
+      <div class="row row-cols-4">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+      </div>
+    </div>
+    <!----Footer-->
+    <footer>
+      <p>Author: Sheri Surratt<br />Email:sherisurratt@gmail.com<br /></p>
+    </footer>
+
+    <!--Bootstrap Bundle-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
